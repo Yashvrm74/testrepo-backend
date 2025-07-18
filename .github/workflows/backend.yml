@@ -1,7 +1,7 @@
 name: Build and Push Backend Docker Image
 
 on:
-  push:
+  push: 
     branches:
       - main
       - backend
