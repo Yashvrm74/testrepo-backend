@@ -39,7 +39,7 @@ public class WebConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://localhost:8081")); // or frontend URL
+        config.setAllowedOrigins(Arrays.asList("https://lms-frontend-fchs.onrender.com", "https://endearing-pixie-da4722.netlify.app/", "https://endearing-pixie-da4722.netlify.app", "http://localhost:8080/", "http://localhost:8080" )); // or frontend URL
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
         config.setAllowCredentials(true);
